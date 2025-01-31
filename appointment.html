@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">HealthPlus</a>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Book an Appointment</h1>
+    <form id="appointment-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="date">Preferred Appointment Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="department">Select Department</label>
+      <select id="department" name="department" required>
+        <option value="Cardiology">Cardiology</option>
+        <option value="Pediatrics">Pediatrics</option>
+        <option value="Orthopedics">Orthopedics</option>
+      </select>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 HealthPlus Hospital. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
