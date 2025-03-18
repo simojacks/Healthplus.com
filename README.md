@@ -15,7 +15,7 @@ Backend optimizations
 Database management best practices
 Contributions to exciting tech projects
 💡 Let's Connect
-My Portfolio website : jacksonmbuthia.netlify.app
+My Portfolio website : https://jacksonmbuthia.netlify.app
 💼 LinkedIn:
 📧 Email:jacksonmbuthia3@gmail.com
 Feel free to explore my repositories and collaborate on exciting projects! 🚀
